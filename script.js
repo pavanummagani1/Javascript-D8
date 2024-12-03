@@ -67,6 +67,11 @@ var sessionActive = false;
 var result = (isLoggedIn && sessionActive)?'Welcome Back':'Please Log In';
 console.log(result);
 
+//Method-2
+var isLoggedIn = true;
+var result = (isLoggedIn)?'Welcome Back':'Please Log In';
+console.log(result);
+
 //Question-19
 var score = 60;
 var grade = (score>=90)?'Grade-A':(score>80 && score<89)?'Grade-B':(score>70&&score<79)?'Grade-C':'Fail';
